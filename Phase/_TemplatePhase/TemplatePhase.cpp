@@ -4,17 +4,17 @@
 
 /*TemplatePhase*/::/*TemplatePhase*/(std::string name, Balancer* balancer) : Phase(name, balancer)
 {
-	/*ƒRƒ“ƒXƒgƒ‰ƒNƒ^*/;
+	/*ã‚³ãƒ³ã‚¹ãƒˆãƒ©ã‚¯ã‚¿*/;
 }
 
 void /*TemplatePhase*/::initialize()
 {
-	/*‰Šúˆ—*/;
+	/*åˆæœŸå‡¦ç†*/;
 }
 
 void /*TemplatePhase*/::calculate(int time, int32_t motor_ang_l, int32_t motor_ang_r, int color, int gyro, int sonic, int volt, signed char* pwm_L, signed char* pwm_R, signed int* ang_T)
 {
-	/*ƒZƒ“ƒT‚©‚ç‚Ì“ü—Í‚ğ‚à‚Æ‚Éƒ‚[ƒ^‚Ö‚Ìo—Í‚ğŒvZ‚·‚é*/
+	/*ã‚»ãƒ³ã‚µã‹ã‚‰ã®å…¥åŠ›ã‚’ã‚‚ã¨ã«ãƒ¢ãƒ¼ã‚¿ã¸ã®å‡ºåŠ›ã‚’è¨ˆç®—ã™ã‚‹*/
 	*pwm_L = 0;
 	*pwm_R = 0;
 	*ang_T = 0;
@@ -22,7 +22,7 @@ void /*TemplatePhase*/::calculate(int time, int32_t motor_ang_l, int32_t motor_a
 
 bool /*TemplatePhase*/::isFinished(int time, int32_t motor_ang_l, int32_t motor_ang_r, int color, int gyro, int sonic, int volt, signed char pwm_L, signed char pwm_R, signed int ang_T)
 {
-	/*I—¹ğŒ‚ğ–‚½‚¹‚Îtrue,–‚½‚³‚È‚¯‚ê‚Îfalse*/
+	/*çµ‚äº†æ¡ä»¶ã‚’æº€ãŸã›ã°true,æº€ãŸã•ãªã‘ã‚Œã°false*/
 	if(1)
 		return false;
 	else

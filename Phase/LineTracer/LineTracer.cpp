@@ -2,12 +2,12 @@
 
 #include "LineTracer.hpp"
 
-/* 白色の光センサ値 */
+/* 逋ｽ濶ｲ縺ｮ蜈峨そ繝ｳ繧ｵ蛟､ */
 #define LIGHT_WHITE  40
-/* 黒色の光センサ値 */
+/* 鮟定牡縺ｮ蜈峨そ繝ｳ繧ｵ蛟､ */
 #define LIGHT_BLACK  0
 
-/* バランス走行時の角度[度] */
+/* 繝舌Λ繝ｳ繧ｹ襍ｰ陦梧凾縺ｮ隗貞ｺｦ[蠎ｦ] */
 #define TAIL_ANGLE_DRIVE      3
 
 LineTracer::LineTracer(std::string name, Balancer* balancer) : Phase(name, balancer)

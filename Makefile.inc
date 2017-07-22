@@ -13,6 +13,7 @@ APPL_CXXOBJS += \
 	Schedule.o \
 	Phase.o \
 	LineTracer.o \
+	StraightPhase.o \
 
 SRCLANG := c++
 
@@ -31,6 +32,7 @@ APPL_DIR += \
 	 $(mkfile_path)Schedule \
 	 $(mkfile_path)Phase \
 	 $(mkfile_path)Phase/LineTracer \
+	 $(mkfile_path)Phase/StraightPhase \
 
 # Add directory has .h or .hpp files
 INCLUDES += \
@@ -40,3 +42,4 @@ INCLUDES += \
 	-I$(mkfile_path)Schedule \
 	-I$(mkfile_path)Phase \
 	-I$(mkfile_path)Phase/LineTracer \
+	-I$(mkfile_path)Phase/StraightPhase \
